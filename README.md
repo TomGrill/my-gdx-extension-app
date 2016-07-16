@@ -1,4 +1,4 @@
-# my-gdx-extension
+# my-gdx-extension-app
 
 This is the corresponding project to my blog article:
 
