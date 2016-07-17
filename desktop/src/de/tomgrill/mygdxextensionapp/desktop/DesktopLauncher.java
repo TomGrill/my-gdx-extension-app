@@ -1,12 +1,12 @@
-package de.tomgrill.mygdxextension.desktop;
+package de.tomgrill.mygdxextensionapp.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import de.tomgrill.mygdxextension.MyGdxExtension;
+import de.tomgrill.mygdxextensionapp.MyGdxExtensionApp;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new MyGdxExtension(), config);
+		new LwjglApplication(new MyGdxExtensionApp(), config);
 	}
 }

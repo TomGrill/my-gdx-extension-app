@@ -1,17 +1,16 @@
-package de.tomgrill.mygdxextension;
+package de.tomgrill.mygdxextensionapp;
 
 import org.robovm.apple.foundation.NSAutoreleasePool;
 import org.robovm.apple.uikit.UIApplication;
 
 import com.badlogic.gdx.backends.iosrobovm.IOSApplication;
 import com.badlogic.gdx.backends.iosrobovm.IOSApplicationConfiguration;
-import de.tomgrill.mygdxextension.MyGdxExtension;
 
 public class IOSLauncher extends IOSApplication.Delegate {
     @Override
     protected IOSApplication createApplication() {
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
-        return new IOSApplication(new MyGdxExtension(), config);
+        return new IOSApplication(new MyGdxExtensionApp(), config);
     }
 
     public static void main(String[] argv) {

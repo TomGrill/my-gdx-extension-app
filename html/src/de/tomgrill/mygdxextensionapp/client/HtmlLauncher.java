@@ -1,9 +1,9 @@
-package de.tomgrill.mygdxextension.client;
+package de.tomgrill.mygdxextensionapp.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import de.tomgrill.mygdxextension.MyGdxExtension;
+import de.tomgrill.mygdxextensionapp.MyGdxExtensionApp;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new MyGdxExtension();
+                return new MyGdxExtensionApp();
         }
 }

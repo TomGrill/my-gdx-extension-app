@@ -4,7 +4,7 @@
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
 
 	<inherits name='MyGdxExtension' />
-	<entry-point class='de.tomgrill.mygdxextension.client.HtmlLauncher' />
+	<entry-point class='de.tomgrill.mygdxextensionapp.client.HtmlLauncher' />
 	
 	<set-configuration-property name="gdx.assetpath" value="../android/assets" />
 </module>

@@ -43,7 +43,7 @@ moe {
     mainClassName 'IOSMoeLauncher'
     xcode {
         mainTarget 'ios-moe'
-        packageName 'de.tomgrill.mygdxextension'
+        packageName 'de.tomgrill.mygdxextensionapp'
         deploymentTarget = '9.0'
         xcodeProjectDirPath 'xcode'
         generateProject false

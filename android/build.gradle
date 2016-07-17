@@ -15,8 +15,8 @@ android {
         instrumentTest.setRoot('tests')
     }
     defaultConfig {
-        applicationId "de.tomgrill.mygdxextension"
-        minSdkVersion 8
+        applicationId "de.tomgrill.mygdxextensionapp"
+        minSdkVersion 15
         targetSdkVersion 24
     }
 }
@@ -68,7 +68,7 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'de.tomgrill.mygdxextension/de.tomgrill.mygdxextension.AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'de.tomgrill.mygdxextensionapp/de.tomgrill.mygdxextensionapp.AndroidLauncher'
 }
 
 // sets up the Android Eclipse project, using the old Ant based build.
