@@ -45,7 +45,6 @@ project(":desktop") {
         compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
         compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
 
-        compile "de.tomgrill.mygdxextension:gdx-mygdxextension-desktop:0.0.1-SNAPSHOT"
     }
 }
 
@@ -64,7 +63,6 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86_64"
 
 
-        compile "de.tomgrill.mygdxextension:gdx-mygdxextension-android:0.0.1-SNAPSHOT"
     }
 }
 
@@ -81,7 +79,6 @@ project(":ios") {
         compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
 
 
-        compile "de.tomgrill.mygdxextension:gdx-mygdxextension-ios:0.0.1-SNAPSHOT"
     }
 }
 
@@ -97,7 +94,6 @@ project(":html") {
         compile "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
 
 
-        compile "de.tomgrill.mygdxextension:gdx-mygdxextension-html:0.0.1-SNAPSHOT"
     }
 }
 
@@ -109,7 +105,6 @@ project(":core") {
         compile "com.badlogicgames.gdx:gdx:$gdxVersion"
 
 
-        compile "de.tomgrill.mygdxextension:gdx-mygdxextension-core:0.0.1-SNAPSHOT"
     }
 }
 
@@ -124,7 +119,6 @@ project(":ios-moe") {
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
 
 
-        compile "de.tomgrill.mygdxextension:gdx-mygdxextension-ios-moe:0.0.1-SNAPSHOT"
     }
 }
 
